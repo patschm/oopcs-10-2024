@@ -1,4 +1,6 @@
-﻿namespace ObjectenFabriek;
+﻿using System.Diagnostics;
+
+namespace ObjectenFabriek;
 
 internal class Program
 {
@@ -9,7 +11,7 @@ internal class Program
         // p.color = ConsoleColor.DarkBlue;
         // p.lineWidth = -4;
         //p.SetLinewidth(-5);
-        p.Linewidth = 16;
+        p.Linewidth = -16;
         p.Write("Hallo");
 
         Pen p2 = new Pen(7, ConsoleColor.DarkGreen);
@@ -59,6 +61,10 @@ class Pen
             if (value >= 0 && value < 100)
             {
                 lineWidth = value;
+            }
+            else
+            {
+                Debug.WriteLine($"Waarde {value} ongeldig voor property {nameof(Linewidth)}");
             }
         }
     }
