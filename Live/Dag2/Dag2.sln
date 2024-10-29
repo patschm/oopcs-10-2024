@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Punten", "Punten\Punten.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeerPennen", "MeerPennen\MeerPennen.csproj", "{6FC05BCC-6EC1-4A52-B02E-1C3145AB6E13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheFirm", "TheFirm\TheFirm.csproj", "{79F16516-8132-43D9-A50A-E6DCD85F0D9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6FC05BCC-6EC1-4A52-B02E-1C3145AB6E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FC05BCC-6EC1-4A52-B02E-1C3145AB6E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FC05BCC-6EC1-4A52-B02E-1C3145AB6E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F16516-8132-43D9-A50A-E6DCD85F0D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F16516-8132-43D9-A50A-E6DCD85F0D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F16516-8132-43D9-A50A-E6DCD85F0D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F16516-8132-43D9-A50A-E6DCD85F0D9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
