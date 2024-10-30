@@ -14,9 +14,13 @@ class Program
         var hek = new Hek();
         var camera = new Camera();
 
-        detectielus.Connect(hek);
-        detectielus.Connect(camera);
-        detectielus.Connect(valkuil);
+        detectielus.Detect += valkuil.Open;
+        detectielus.Detect += hek.Open;
+        detectielus.Detect += camera.StartOpname;
+
+        //detectielus.Connect(hek);
+        //detectielus.Connect(camera);
+        //detectielus.Connect(valkuil);
 
 
         detectielus.Detecteer();
